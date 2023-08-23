@@ -14,4 +14,15 @@ public class Cliente {
         System.out.println(nome + " fez uma transação!");
         System.out.println(nome + " fez compra no " + tipoTransacaoRealizada);
     }
+
+    void alterarIdade (int novaIdade){
+        idade = novaIdade;
+    }
+
+    void mostrarDetalheClientes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Altura: " + altura);
+        System.out.println("Estado Civil: " + estadoCivil);
+        System.out.println("Idade: " + idade);
+    }
 }

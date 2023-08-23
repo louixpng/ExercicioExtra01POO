@@ -6,4 +6,12 @@ public class Agências {
         this.enderecoAgencia = enderecoAgencia;
         this.numAgencia = numAgencia;
     }
+
+    void alterarAgênciasNumero(int newAgenciaNumero){
+        numAgencia = newAgenciaNumero;
+    }
+    void mostrarDetalheAgências() {
+        System.out.println("Endereço da Agência: " + enderecoAgencia);
+        System.out.println("Número da Agência: " + numAgencia);
+    }
 }
